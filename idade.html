@@ -11,7 +11,7 @@
             var resultado;
             var idade = parseInt(document.getElementById("idade").value);
             var nome = document.getElementById("nome").value;
-            
+
             // console.log(idade);
 
             if (idade <= 11) {
@@ -37,13 +37,13 @@
             padding: 0px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-style: oblique;
-            font-size: 32px;
+            font-size: 1.2rem;
             border: 1px solid transparent;
             width: 80%;
         }
 
         main {
-            border: 1px dashed #ffc06e;
+            border: 1px dashed #60c123;
             margin: 8px auto;
             padding: 8px;
             display: flex;
@@ -52,22 +52,22 @@
             align-items: center;
             /* width: 80%; */
             min-width: 30%;
-            background-color: antiquewhite;
+            background-color: #60c123;
         }
 
         header {
             margin: 8px auto;
             padding: 8px;
-            border: 1px dotted #e2b36d;
+            border: 1px dotted #60c123;
             text-align: center;
             align-items: center;
-            background-color: #ffff505c;
+            background-color: #ffc91890;
         }
 
         footer {
-            margin: 64px auto;
-            background-color: #ffff0046;
-            border: 1px solid #ffff00a0
+            margin: 8px auto;
+            background-color: #60c12385;
+            border: 1px solid #ffca1880;
         }
 
         button {
@@ -114,11 +114,11 @@
             <label for="dtnasc">Data de Nascimento: </label>
             <input size="20" onkeyup="idade()" id="dtnasc" type="date" placeholder="Digite a idade da pessoa" value="22" />
         </div> -->
-        <!-- <button onclick="idade()">Enviar</button> -->
+        <button onclick="idade()">Avaliar a idade</button>
         <p id="resultado"></p>
     </main>
     <footer>
-        <p style="text-align: center;"><i>© 2023 - Marcio Denadai</i></p>
+        <p style="text-align: center; font-size: 8px;"><i>© 2023 - SENAI "Celso Charuri" - Sumaré - SP</i></p>
     </footer>
 </body>
 
